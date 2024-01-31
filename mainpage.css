@@ -1,0 +1,17 @@
+#mainpage {
+
+}
+#mainpage .topbar {
+  display:flex;
+  flex-direction:column;
+}
+#mainpage .topbar .searchbar {
+  display:flex;
+  flex-direction:row;
+ 
+}
+#mainpage .topbar .searchbar .search-input {
+  background-color:lightgray;
+  border:none;
+  border-radius:100px
+} 

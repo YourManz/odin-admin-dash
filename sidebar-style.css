@@ -9,8 +9,8 @@ html {
   /* height:100%; */
 }
 body {
-  display:flex;
-  flex-direction:row;
+  display:grid;
+  grid-template-columns: clamp(200px, 15%, 300px) 9fr;
   min-height:100vh;
 }
 #sidebar {
@@ -26,9 +26,6 @@ body {
   color:white;
   border: none;
  }
-#sidebar .sidebar-button:hover {
-  color:gray;
-}
 #sidebar .sidebar-item {
   margin:0px;
   padding-top:15px;
@@ -37,7 +34,7 @@ body {
   /* flex-direction:row; */
   /* justify-content:space-around; */
 }
-#sidebar .side-buttons:hover {
+#sidebar .sidebar-buttons:hover {
   background-color:#0ee9eb;
   color: gray;
 }
