@@ -8,10 +8,24 @@
 #mainpage .topbar .searchbar {
   display:flex;
   flex-direction:row;
- 
+  justify-content:space-around; 
+  align-items:center;
 }
-#mainpage .topbar .searchbar .search-input {
+#mainpage .topbar .searchbar .searchbar-icons {
+  height:20px;
+  width:auto;
+}
+#mainpage .topbar .searchbar .icon-input {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+#mainpage .topbar .searchbar .icon-input .search-input {
   background-color:lightgray;
   border:none;
-  border-radius:100px
+  border-radius:100px;
+  height:30px;
+  padding:1px;
+  margin-left:10px;
+  width:400px;
 } 
